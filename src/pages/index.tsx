@@ -13,6 +13,8 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <h2>Hello world!</h2>
+    <div className="min-h-screen min-w-full bg-slate-500">
+      <h2 className="text-4xl text-red-400">Title</h2>
+    </div>
   );
 }
